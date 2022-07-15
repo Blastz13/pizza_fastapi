@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pizza_fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Sinicin Roman <blastz1337@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.79.0"
+uvicorn = "^0.18.2"
+SQLAlchemy = "^1.4.39"
+alembic = "^1.8.1"
+pydantic = "^1.9.1"
+psycopg2-binary = "^2.9.3"
+PyJWT = "^2.4.0"
+Werkzeug = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
